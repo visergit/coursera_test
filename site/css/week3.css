@@ -1,0 +1,118 @@
+
+/* Comments are placed between these symbols */
+
+  /* to simplify box sizing */
+* {
+      box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: blue;
+  background-color: white;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+  .colornorth{
+    background-color: red;
+  }
+  .colorvegan{
+    background-color: green;
+  }
+  .colorsouth{
+    background-color: blue;
+  }
+
+
+  /* A horizontal line */
+  hr {
+    border-top: 3px solid red;
+    width: 75%; 
+  }
+
+/********** Updates for Assignment 3 **********/
+
+
+ .col-one-assignment3-title {
+    width: 100.0%;
+    height: 50px;
+    border: 10px solid white;
+    float: left;
+    padding: 3px;
+    /*text-align: center;*/
+    background-color: olive;
+  }
+
+   .col-one-assignment3-items {
+    width: 100.0%;
+    border: 10px solid white;
+    float: left;
+    padding: 3px;
+    text-align: center;
+  }
+
+ .col-one-assignment3-itemname {
+    font-size: 30px;
+  }
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: grey;
+  font-weight: bold;
+}
+#nav-list a {
+  color: red;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#med-list {
+  margin-top: 0px;
+  background-color: grey;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+/* END HEADER */
+
+
